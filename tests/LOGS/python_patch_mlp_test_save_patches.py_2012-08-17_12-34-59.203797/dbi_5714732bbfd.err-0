@@ -1,0 +1,9 @@
+Using gpu device 1: GeForce GTX 580
+Traceback (most recent call last):
+  File "patch_mlp_test_save_patches.py", line 66, in <module>
+    prmlp.test(train_set_patches, train_set_pre, **cs_args["test_args"])
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/patch_mlp.py", line 239, in test
+    self.record_classified_examples(patches, raw_errors)
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/mlp.py", line 353, in record_classified_examples
+    self.misclassifieds.append(patches[i])
+AttributeError: 'numpy.ndarray' object has no attribute 'append'

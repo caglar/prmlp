@@ -1,0 +1,86 @@
+----------------------------------------
+Begin PBS Prologue Fri Aug 17 08:48:14 EDT 2012 1345207694
+Job ID:		1484[0].hades
+Username:	gulcehre
+Group:		lisa
+Nodes:		ngpu-a4-01
+End PBS Prologue Fri Aug 17 08:48:14 EDT 2012 1345207694
+----------------------------------------
+Loading the dataset
+Dataset successfully loaded to memory
+Starting the cross-validation
+... pretraining the model
+Testing on the training dataset.
+... pre-testing the model
+Confusion matrix:
+[[1952000       0       0       0       0       0       0       0       0
+        0       0]
+ [      0    9924       0       0       0       0       0       0       0
+        0       0]
+ [      0       0    9600       0       0       0       0       0       0
+        0       0]
+ [      0       0       0    9625       0       0       0       0       0
+        0       0]
+ [      0       0       0    2486    7112       0       0       0       0
+        0       0]
+ [      0    9458       0       0       0       0       0       0       0
+        0       0]
+ [      0       0       0       0       0       0    4578       0       0
+        0    4592]
+ [      0       0       0       0       0       0       0    9546       0
+        0       0]
+ [      0       0       0   10068       0       0       0       0       0
+        0       0]
+ [      0       0       0    2373       0       0       0       0       0
+     7104       0]
+ [      0       0       0       0       0       0    4712       0       0
+        0    4822]]
+Number of incorrectly classified patch objects: 33689
+Percentage of correctly classified patch objects: 64.9072916667
+In the end final test score on whole image is 1.644971
+
+Testing on the test dataset.
+... pre-testing the model
+Confusion matrix:
+[[2440000       0       0       0       0       0       0       0       0
+        0       0]
+ [      0   12305       0       0       0       0       0       0       0
+        0       0]
+ [      0       0   11922       0       0       0       0       0       0
+        0       0]
+ [      0       0       0   12026       0       0       0       0       0
+        0       0]
+ [      0       0       0    3110    8955       0       0       0       0
+        0       0]
+ [      0   11694       0       0       0       0       0       0       0
+        0       0]
+ [      0       0       0       0       0       0    5639       0       0
+        0    5783]
+ [      0       0       0       0       0       0       0   11974       0
+        0       0]
+ [      0       0       0   12590       0       0       0       0       0
+        0       0]
+ [      0       0       0    2981       0       0       0       0       0
+     8972       0]
+ [      0       0       0       0       0       0    5957       0       0
+        0    6092]]
+Number of incorrectly classified patch objects: 42115
+Percentage of correctly classified patch objects: 64.9041666667
+In the end final test score on whole image is 1.645703
+
+----------------------------------------
+Begin PBS Epilogue Fri Aug 17 17:03:21 EDT 2012 1345237401
+Job ID:		1484[0].hades
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_2967ae7ce47-0
+Session:	10391
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=07:36:40,mem=6329192kb,vmem=52874412kb,walltime=08:15:02
+Queue:		courte
+Account:		
+Nodes:	ngpu-a4-01
+Killing leftovers...
+
+End PBS Epilogue Fri Aug 17 17:03:23 EDT 2012 1345237403
+----------------------------------------

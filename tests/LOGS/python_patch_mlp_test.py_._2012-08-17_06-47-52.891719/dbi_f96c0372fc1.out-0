@@ -1,0 +1,24 @@
+----------------------------------------
+Begin PBS Prologue Fri Aug 17 06:47:57 EDT 2012 1345200477
+Job ID:		397082[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Nodes:		node-e1-08
+End PBS Prologue Fri Aug 17 06:47:57 EDT 2012 1345200477
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Fri Aug 17 09:33:58 EDT 2012 1345210438
+Job ID:		397082[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_f96c0372fc1-0
+Session:	19525
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=02:45:05,mem=6506332kb,vmem=6906836kb,walltime=02:45:56
+Queue:		courte
+Account:		
+Nodes:	node-e1-08
+Killing leftovers...
+
+End PBS Epilogue Fri Aug 17 09:33:58 EDT 2012 1345210438
+----------------------------------------

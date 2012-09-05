@@ -1,0 +1,2 @@
+Using gpu device 5: GeForce GTX 580
+/home/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/tests/LOGS/python_patch_mlp_test.py_._2012-08-17_17-42-33.305835/launcher: line 12:  8432 Killed                  ${tasks[$PBS_ARRAYID]}

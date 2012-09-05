@@ -1,0 +1,27 @@
+----------------------------------------
+Begin PBS Prologue Sun Aug 19 23:40:25 EDT 2012 1345434025
+Job ID:		408634[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Nodes:		node-e1-30
+End PBS Prologue Sun Aug 19 23:40:25 EDT 2012 1345434025
+----------------------------------------
+Loading the dataset
+Dataset successfully loaded to memory
+Starting the cross-validation
+----------------------------------------
+Begin PBS Epilogue Sun Aug 19 23:42:08 EDT 2012 1345434128
+Job ID:		408634[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_3ef58f1bb77-0
+Session:	6833
+Limits:		mem=5000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=00:01:24,mem=1747024kb,vmem=2027296kb,walltime=00:01:38
+Queue:		courte
+Account:		
+Nodes:	node-e1-30
+Killing leftovers...
+
+End PBS Epilogue Sun Aug 19 23:42:08 EDT 2012 1345434128
+----------------------------------------

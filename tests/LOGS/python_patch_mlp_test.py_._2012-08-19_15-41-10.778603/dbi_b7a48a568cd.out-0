@@ -1,0 +1,86 @@
+----------------------------------------
+Begin PBS Prologue Sun Aug 19 15:41:13 EDT 2012 1345405273
+Job ID:		408587[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Nodes:		node-e1-30
+End PBS Prologue Sun Aug 19 15:41:13 EDT 2012 1345405273
+----------------------------------------
+Loading the dataset
+Dataset successfully loaded to memory
+Starting the cross-validation
+... pretraining the model
+Testing on the training dataset.
+... pre-testing the model
+Confusion matrix:
+[[3904000       0       0       0       0       0       0       0       0
+        0       0]
+ [      0   19348       0       0       0       0       0       0       0
+        0       0]
+ [      0       0   19161       0       0       0       0       0       0
+        0       0]
+ [      0       0       0   12143    4912       0       0       0       0
+     2442       0]
+ [      0       0       0       0   19262       0       0       0       0
+        0       0]
+ [      0   18857       0       0       0       0       0       0       0
+        0       0]
+ [      0       0       0       0       0       0   11707       0       0
+        0    6884]
+ [      0       0       0       0       0       0       0   19182       0
+        0       0]
+ [      0       0       0   12329    5005       0       0       0       0
+     2530       0]
+ [      0       0       0       0    2326       0       0       0       0
+    16652       0]
+ [      0       0       0       0       0       0   12029       0       0
+        0    7231]]
+Number of incorrectly classified patch objects: 67314
+Percentage of correctly classified patch objects: 64.940625
+In the end final test score on whole image is 1.643408
+
+Testing on the test dataset.
+... pre-testing the model
+Confusion matrix:
+[[4880000       0       0       0       0       0       0       0       0
+        0       0]
+ [      0   24029       0       0       0       0       0       0       0
+        0       0]
+ [      0       0   23951       0       0       0       0       0       0
+        0       0]
+ [      0       0       0   15211    6174       0       0       0       0
+     3065       0]
+ [      0       0       0       0   24077       0       0       0       0
+        0       0]
+ [      0   23617       0       0       0       0       0       0       0
+        0       0]
+ [      0       0       0       0       0       0   14707       0       0
+        0    8620]
+ [      0       0       0       0       0       0       0   23988       0
+        0       0]
+ [      0       0       0   15439    6214       0       0       0       0
+     3164       0]
+ [      0       0       0       0    2990       0       0       0       0
+    20773       0]
+ [      0       0       0       0       0       0   14933       0       0
+        0    9048]]
+Number of incorrectly classified patch objects: 84216
+Percentage of correctly classified patch objects: 64.91
+In the end final test score on whole image is 1.650586
+
+----------------------------------------
+Begin PBS Epilogue Mon Aug 20 04:22:10 EDT 2012 1345450930
+Job ID:		408587[0].egeon2
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_b7a48a568cd-0
+Session:	3317
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=12:40:15,mem=13468532kb,vmem=15047392kb,walltime=12:40:53
+Queue:		courte
+Account:		
+Nodes:	node-e1-30
+Killing leftovers...
+
+End PBS Epilogue Mon Aug 20 04:22:11 EDT 2012 1345450931
+----------------------------------------

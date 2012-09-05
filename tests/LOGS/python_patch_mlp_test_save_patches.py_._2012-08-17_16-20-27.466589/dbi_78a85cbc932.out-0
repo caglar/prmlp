@@ -1,0 +1,59 @@
+----------------------------------------
+Begin PBS Prologue Fri Aug 17 16:27:22 EDT 2012 1345235242
+Job ID:		1492[0].hades
+Username:	gulcehre
+Group:		lisa
+Nodes:		ngpu-a4-01
+End PBS Prologue Fri Aug 17 16:27:22 EDT 2012 1345235242
+----------------------------------------
+Loading the dataset
+Dataset successfully loaded to memory
+Starting the cross-validation
+... pretraining the model
+Testing on the training dataset.
+... pre-testing the model
+Confusion matrix:
+[[1952000       0       0       0       0       0       0       0       0
+        0       0]
+ [      0    9924       0       0       0       0       0       0       0
+        0       0]
+ [      0       0    9600       0       0       0       0       0       0
+        0       0]
+ [      0       0       0    9625       0       0       0       0       0
+        0       0]
+ [      0       0       0    2486    7112       0       0       0       0
+        0       0]
+ [      0    9458       0       0       0       0       0       0       0
+        0       0]
+ [      0       0       0       0       0       0       0       0       0
+        0    9170]
+ [      0       0       0       0       0       0       0    9546       0
+        0       0]
+ [      0       0       0   10068       0       0       0       0       0
+        0       0]
+ [      0       0       0    2373       0       0       0       0       0
+     7104       0]
+ [      0       0       0       0       0       0       0       0       0
+        0    9534]]
+Number of incorrectly classified patch objects: 33555
+Percentage of correctly classified patch objects: 65.046875
+In the end final test score on whole image is 1.638428
+
+Testing on the test dataset.
+... pre-testing the model
+----------------------------------------
+Begin PBS Epilogue Fri Aug 17 19:19:04 EDT 2012 1345245544
+Job ID:		1492[0].hades
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_78a85cbc932-0
+Session:	18558
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=02:27:51,mem=6044100kb,vmem=53530752kb,walltime=02:51:36
+Queue:		courte
+Account:		
+Nodes:	ngpu-a4-01
+Killing leftovers...
+
+End PBS Epilogue Fri Aug 17 19:19:06 EDT 2012 1345245546
+----------------------------------------

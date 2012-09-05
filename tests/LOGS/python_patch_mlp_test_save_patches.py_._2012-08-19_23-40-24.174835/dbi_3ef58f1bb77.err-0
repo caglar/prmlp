@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "patch_mlp_test_save_patches.py", line 55, in <module>
+    quiet=True)
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/patch_mlp.py", line 72, in __init__
+    rng=rng)
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/mlp.py", line 100, in __init__
+    self.setup_hidden_layers(activation, n_in=n_in, n_out=n_out, n_hiddens=n_hiddens)
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/mlp.py", line 153, in setup_hidden_layers
+    activation=act_fn))
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/layer.py", line 74, in __init__
+    self.reset_layer()
+  File "/RQusagers/gulcehre/codes/python/experiments/arcade_ds_exps/pretrained_mlp/prmlp_clean/layer.py", line 25, in reset_layer
+    W_values = numpy.asarray(self.rng.uniform(
+AttributeError: 'NoneType' object has no attribute 'uniform'

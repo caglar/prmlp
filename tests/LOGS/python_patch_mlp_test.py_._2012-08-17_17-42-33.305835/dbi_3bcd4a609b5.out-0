@@ -1,0 +1,24 @@
+----------------------------------------
+Begin PBS Prologue Sat Aug 18 12:00:37 EDT 2012 1345305637
+Job ID:		1495[0].hades
+Username:	gulcehre
+Group:		lisa
+Nodes:		ngpu-a4-01
+End PBS Prologue Sat Aug 18 12:00:39 EDT 2012 1345305639
+----------------------------------------
+----------------------------------------
+Begin PBS Epilogue Sat Aug 18 12:08:23 EDT 2012 1345306103
+Job ID:		1495[0].hades
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_3bcd4a609b5-0
+Session:	8277
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=00:02:39,mem=5830672kb,vmem=52882500kb,walltime=00:07:40
+Queue:		courte
+Account:		
+Nodes:	ngpu-a4-01
+Killing leftovers...
+
+End PBS Epilogue Sat Aug 18 12:08:30 EDT 2012 1345306110
+----------------------------------------

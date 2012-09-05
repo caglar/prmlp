@@ -1,0 +1,30 @@
+----------------------------------------
+Begin PBS Prologue Fri Aug 17 12:35:05 EDT 2012 1345221305
+Job ID:		1485[0].hades
+Username:	gulcehre
+Group:		lisa
+Nodes:		ngpu-a4-01
+End PBS Prologue Fri Aug 17 12:35:05 EDT 2012 1345221305
+----------------------------------------
+Loading the dataset
+Dataset successfully loaded to memory
+Starting the cross-validation
+... pretraining the model
+Testing on the training dataset.
+... pre-testing the model
+----------------------------------------
+Begin PBS Epilogue Fri Aug 17 15:21:15 EDT 2012 1345231275
+Job ID:		1485[0].hades
+Username:	gulcehre
+Group:		lisa
+Job Name:	dbi_5714732bbfd-0
+Session:	28452
+Limits:		mem=4000mb,neednodes=1:ppn=1,nodes=1:ppn=1,walltime=47:59:59
+Resources:	cput=02:26:24,mem=6012528kb,vmem=52876204kb,walltime=02:46:07
+Queue:		courte
+Account:		
+Nodes:	ngpu-a4-01
+Killing leftovers...
+
+End PBS Epilogue Fri Aug 17 15:21:19 EDT 2012 1345231279
+----------------------------------------

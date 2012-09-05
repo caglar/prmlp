@@ -1,0 +1,12 @@
+#!/bin/bash -l
+# Bash is needed because we use its "array" data structure
+# the -l flag means it will act like a login shell,
+# and source the .profile, .bashrc, and so on
+
+# List of all tasks to execute
+tasks=(
+'python patch_mlp_test.py .'
+)
+
+# Execute the task
+${tasks[$PBS_ARRAYID]}
